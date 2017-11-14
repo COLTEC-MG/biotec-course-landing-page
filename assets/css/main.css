@@ -1567,19 +1567,45 @@ button,
       background-size: 128px 128px, auto;
       background-color: #353865; }
     .panel > *.color5 {
-      background: #232526;
+      background: #ECE9E6;
       /* fallback for old browsers */
-      background: -webkit-linear-gradient(to right, #414345, #232526);
+      background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
       /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to right, #414345, #232526);
+      background: linear-gradient(to right, #FFFFFF, #ECE9E6);
       /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
-    .panel > *.color6 {
-      background: #090706;
-      /* fallback for old browsers */
-      background: -webkit-linear-gradient(to right, #090706, #232526);
-      /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to right, #090706, #232526);
-      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+      .panel > *.color5 p, .panel > *.color5 input, .panel > *.color5 select, .panel > *.color5 textarea {
+        color: rgba(41, 128, 185, 0.75); }
+      .panel > *.color5 strong, .panel > *.color5 b {
+        color: rgba(41, 128, 185, 0.875); }
+      .panel > *.color5 h1, .panel > *.color5 h2, .panel > *.color5 h3, .panel > *.color5 h4, .panel > *.color5 h5, .panel > *.color5 h6 {
+        color: rgba(41, 128, 185, 0.875); }
+      .panel > *.color5 h1.major:after, .panel > *.color5 h2.major:after, .panel > *.color5 h3.major:after {
+        background-color: rgba(41, 128, 185, 0.075); }
+      .panel > *.color5 button, .panel > *.color5 .button {
+        color: rgba(41, 128, 185, 0.875) !important;
+        box-shadow: inset 0 0 0 2px rgba(41, 128, 185, 0.25); }
+        .panel > *.color5 button.special, .panel > *.color5 .button.special {
+          background-color: #2980b9; }
+          .panel > *.color5 button.special.color5, .panel > *.color5 .button.special.color5 {
+            color: #e1e6e1 !important; }
+      .panel > *.color5 ul {
+        color: rgba(41, 128, 185, 0.75); }
+        .panel > *.color5 ul.contact-icons > li:before {
+          background-color: #2980b9; }
+        .panel > *.color5 ul.alt li {
+          border-top: solid 1px rgba(41, 128, 185, 0.25); }
+        .panel > *.color5 ul.grid-icons .icon:before {
+          box-shadow: inset 0 0 0 2px rgba(41, 128, 185, 0.25); }
+        .panel > *.color5 ul.grid-icons.connected > li:before, .panel > *.color5 ul.grid-icons.connected > li:after {
+          background-color: rgba(41, 128, 185, 0.25); }
+      .panel > *.color5 th {
+        color: rgba(41, 128, 185, 0.875); }
+      .panel > *.color5 hr {
+        border-bottom: solid 2px rgba(41, 128, 185, 0.25); }
+      .panel > *.color5 textarea {
+        border: solid 2px rgba(41, 128, 185, 0.25); }
+      .panel > *.color5 input[type='radio'] + label:before {
+        background: rgba(41, 128, 185, 0.075); }
     .panel > *.color1-alt {
       background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
       background-size: 128px 128px, auto;
@@ -1890,19 +1916,45 @@ button,
     background-size: 128px 128px, auto;
     background-color: #353865; }
   .panel.color5 {
-    background: #232526;
+    background: #ECE9E6;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #414345, #232526);
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #414345, #232526);
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
-  .panel.color6 {
-    background: #090706;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #090706, #232526);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #090706, #232526);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+    .panel.color5 p, .panel.color5 input, .panel.color5 select, .panel.color5 textarea {
+      color: rgba(41, 128, 185, 0.75); }
+    .panel.color5 strong, .panel.color5 b {
+      color: rgba(41, 128, 185, 0.875); }
+    .panel.color5 h1, .panel.color5 h2, .panel.color5 h3, .panel.color5 h4, .panel.color5 h5, .panel.color5 h6 {
+      color: rgba(41, 128, 185, 0.875); }
+    .panel.color5 h1.major:after, .panel.color5 h2.major:after, .panel.color5 h3.major:after {
+      background-color: rgba(41, 128, 185, 0.075); }
+    .panel.color5 button, .panel.color5 .button {
+      color: rgba(41, 128, 185, 0.875) !important;
+      box-shadow: inset 0 0 0 2px rgba(41, 128, 185, 0.25); }
+      .panel.color5 button.special, .panel.color5 .button.special {
+        background-color: #2980b9; }
+        .panel.color5 button.special.color5, .panel.color5 .button.special.color5 {
+          color: #e1e6e1 !important; }
+    .panel.color5 ul {
+      color: rgba(41, 128, 185, 0.75); }
+      .panel.color5 ul.contact-icons > li:before {
+        background-color: #2980b9; }
+      .panel.color5 ul.alt li {
+        border-top: solid 1px rgba(41, 128, 185, 0.25); }
+      .panel.color5 ul.grid-icons .icon:before {
+        box-shadow: inset 0 0 0 2px rgba(41, 128, 185, 0.25); }
+      .panel.color5 ul.grid-icons.connected > li:before, .panel.color5 ul.grid-icons.connected > li:after {
+        background-color: rgba(41, 128, 185, 0.25); }
+    .panel.color5 th {
+      color: rgba(41, 128, 185, 0.875); }
+    .panel.color5 hr {
+      border-bottom: solid 2px rgba(41, 128, 185, 0.25); }
+    .panel.color5 textarea {
+      border: solid 2px rgba(41, 128, 185, 0.25); }
+    .panel.color5 input[type='radio'] + label:before {
+      background: rgba(41, 128, 185, 0.075); }
   .panel.color1-alt {
     background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
     background-size: 128px 128px, auto;
