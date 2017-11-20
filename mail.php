@@ -1,10 +1,10 @@
 <?php
-$receiver = "";
+$receiver = "secgeral@coltec.ufmg.br";
 
 /* All form fields are automatically passed to the PHP script through the array $HTTP_POST_VARS. */
 $email = $_POST['email'];
 $name = $_POST['name'];
-$subject = "[COLTEC - Subsequente]: Dúvida";
+$subject = "[COLTEC - Biotecnologia]: Dúvida";
 $message = $_POST['message'];
 
 // Set email headers
